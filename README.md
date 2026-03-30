@@ -21,3 +21,27 @@ This project addresses the challenge of early liver disease diagnosis. It utiliz
    ```bash
    git clone [https://github.com/](https://github.com/)<your-github-username>/<your-repo-name>.git
    cd Liver_Disease_Detector
+
+## 🖥️ How to Use the App
+
+Follow these steps to perform a diagnostic analysis:
+
+### 1. Prepare the Environment
+Ensure you have installed the requirements and started the server:
+```bash
+streamlit run app.py
+```
+
+### 2.Follow these steps to perform a diagnostic analysis:
+
+1. **Input Metrics:** Use the **Sidebar** to enter laboratory values (Bilirubin, Albumin, Enzymes, etc.) from a patient's report.
+2. **Analyze:** Click the **"Run Diagnostic Analysis"** button.
+3. **Interpret Results:** - **Status Box:** A **Green** box indicates "Low Risk," while a **Red** box indicates "High Risk," accompanied by an AI confidence percentage.
+    - **SHAP Chart:** Review the bar chart at the bottom. Bars extending to the **right (red)** identify factors that increased disease risk, while bars to the **left (blue)** identify factors that pushed the model toward a healthy result.
+
+## 🧪 Technologies Used
+
+- **Python:** Core programming (Pandas for data processing, Scikit-Learn for Machine Learning).
+- **Streamlit:** Framework used for building the web-based User Interface.
+- **SHAP:** Explainable AI (XAI) used to visualize and interpret model decision-making.
+- **Joblib:** Used for model serialization and saving/loading the trained assets.
