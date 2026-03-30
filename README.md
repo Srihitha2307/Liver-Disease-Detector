@@ -12,7 +12,7 @@ This project addresses the challenge of early liver disease diagnosis. It utiliz
 - [**`train.py`**](./train.py): Script to preprocess data and train the saved models.
 - [**`data/`**](./data/): Contains the [**`indian_liver_patient.csv`**](./data/indian_liver_patient.csv) dataset.
 - [**`models/`**](./models/): Stores serialized assets ([`liver_model.pkl`](./models/liver_model.pkl), [`scaler.pkl`](./models/scaler.pkl), [`encoder.pkl`](./models/encoder.pkl)).
-- [**`Project_Report.pdf`**](): The detailed technical documentation for VITyarthi submission.
+- [**`Project Report - Liver Disease Detector`**](https://github.com/Srihitha2307/Liver-Disease-Detector/blob/main/Project%20Report%20-%20Liver%20Disease%20Detector.docx): The detailed technical documentation for VITyarthi submission.
 - [**`requirements.txt`**](./requirements.txt): List of necessary Python libraries.
 
 ## 🛠️ Setup and Installation
